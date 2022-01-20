@@ -23,7 +23,7 @@ def main(file1, file2):
             print(in_square_check(center_x, center_y, dot_x, dot_y, radius))
 
 
-parser = argparse.ArgumentParser(description='Generate diff')
+parser = argparse.ArgumentParser()
 parser.add_argument('file1', help='filepath to circle desc file')
 parser.add_argument('file2', help='filepath to dots coordinates file')
 args = parser.parse_args()

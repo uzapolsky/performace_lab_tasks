@@ -33,7 +33,7 @@ def main(values_file, tests_file):
         print(f'Results saved to {os.path.realpath(f.name)}')
 
 
-parser = argparse.ArgumentParser(description='Generate diff')
+parser = argparse.ArgumentParser()
 parser.add_argument('values_file', help='filepath to tests results json')
 parser.add_argument('tests_file', help='filepath to report structure json')
 args = parser.parse_args()
